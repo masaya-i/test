@@ -19,3 +19,9 @@ p{
     color: seagreen;
 }
 
+/* フルスクリーンの書き方 */
+body {
+  background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
+  background-size:cover;
+}
+
