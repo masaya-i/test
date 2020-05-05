@@ -31,6 +31,7 @@ height: auto;
 } */
  
 /* 自動で画像の大きさをそろえてくれる */
+/* 画面サイズに合わせつつ、最大最小を設定した記述 */
 .gif{
 max-width: 1000px;
 width: 100%;
@@ -45,17 +46,17 @@ margin-right: auto;
     }
     }
 
-    /* タブレット用のCSS */
-    @media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+/* タブレット用のCSS */
+@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
         #menu-bg {
         background-color: #FF0000; /*赤色*/
         }
         }
 
 /* スマホ用のCSS */
-        @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
             #menu-bg {
             background-color: #00FF00; /*緑色*/
-            }
-            }
+        }
+        }
 
