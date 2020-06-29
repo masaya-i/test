@@ -1,0 +1,36 @@
+.gif{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    /* PC用のCSS */
+    @media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+        #menu-bg {
+        background-color: #00FFFF; /*青色*/
+        }
+        /* body {
+            background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
+            background-size:cover;
+          } */
+        }
+    
+    /* タブレット用のCSS */
+    @media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+            #menu-bg {
+            background-color: #FF0000; /*赤色*/
+            }
+            }
+    
+    /* スマホ用のCSS */
+    @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+                #menu-bg {
+                background-color: #00FF00; /*緑色*/
+            }
+            /* body {
+                background: url(https://github.com/masaya-i/test/blob/master/img/pika.jpg?raw=true) center center no-repeat fixed;
+                background-size:cover;
+              } */
+            }
+    
