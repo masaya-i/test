@@ -77,10 +77,10 @@ margin-right: auto;
     #menu-bg {
     background-color: #00FFFF; /*青色*/
     }
-    body {
+    /* body {
         background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
         background-size:cover;
-      }
+      } */
     }
 
 /* タブレット用のCSS */
@@ -95,9 +95,9 @@ margin-right: auto;
             #menu-bg {
             background-color: #00FF00; /*緑色*/
         }
-        body {
+        /* body {
             background: url(https://github.com/masaya-i/test/blob/master/img/pika.jpg?raw=true) center center no-repeat fixed;
             background-size:cover;
-          }
+          } */
         }
 
