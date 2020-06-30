@@ -1,36 +1,103 @@
+h1{
+  color: aqua;
+}
+
+p{
+  font-size: 20px;
+  color: red;
+}
+
+.dakuso{
+  color:blue;
+}
+
 .gif{
-    max-width: 1000px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    
-    /* PC用のCSS */
-    @media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
-        #menu-bg {
-        background-color: #00FFFF; /*青色*/
-        }
-        /* body {
-            background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
-            background-size:cover;
-          } */
-        }
-    
-    /* タブレット用のCSS */
-    @media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
-            #menu-bg {
-            background-color: #FF0000; /*赤色*/
-            }
-            }
-    
-    /* スマホ用のCSS */
-    @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-                #menu-bg {
-                background-color: #00FF00; /*緑色*/
-            }
-            /* body {
-                background: url(https://github.com/masaya-i/test/blob/master/img/pika.jpg?raw=true) center center no-repeat fixed;
-                background-size:cover;
-              } */
-            }
-    
+  padding: 20px;
+}
+
+.yugio{
+  color: seagreen;
+  display: flex;
+}
+
+/* ゲーム用CSS */
+h2{
+  /*body項目を横向きにする */
+  display: flex;
+  /* 折り返す */
+  flex-wrap: wrap;
+} 
+
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  cursor: pointer;
+  /* CSSアニメ－ションを勉強 */
+  /* アニメーションに書ける時間 */
+  transition: 0.8s;
+  margin: 8px;
+  text-align: center;
+  line-height: 100px;
+}
+.win{
+  background-color: pink;
+  border-radius: 50%;
+  transform: rotate(360deg);
+  
+}
+.lose{
+  transform: scale(0.9);
+  
+}
+
+/* フルスクリーンの書き方 */
+/* body {
+background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
+background-size:cover;
+} */
+
+/* .gif {
+max-width: 100% ;
+height: auto;
+} */
+
+/* 自動で画像の大きさをそろえてくれる */
+/* 画面サイズに合わせつつ、最大最小を設定した記述 */
+.gif{
+max-width: 1000px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* PC用のCSS */
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  #menu-bg {
+  background-color: #00FFFF; /*青色*/
+  }
+  /* body {
+      background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
+      background-size:cover;
+    } */
+  }
+
+/* タブレット用のCSS */
+@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+      #menu-bg {
+      background-color: #FF0000; /*赤色*/
+      }
+      }
+
+/* スマホ用のCSS */
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+          #menu-bg {
+          background-color: #00FF00; /*緑色*/
+      }
+      /* body {
+          background: url(https://github.com/masaya-i/test/blob/master/img/pika.jpg?raw=true) center center no-repeat fixed;
+          background-size:cover;
+        } */
+      }
+
