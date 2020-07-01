@@ -3,24 +3,35 @@ h1{
   border-bottom: solid 6px ;
 }
 
-#moji{
+/* #moji{
   float: right;
   text-align: right;
-
 }
-
+*/
 .box{
+  /* background: #42c97e; */
+  height: 400px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+   
+}
+/* .box{
   float: right;
   text-align: right
-}
+} */
 
 p{
   font-size: 14px;
+  display: inline-block;
+  text-align: center
 }
 
-.gif{
+/* .gif{
   padding: 20px;
-}
+} */
 
 
 /* フルスクリーンの書き方 */
@@ -39,13 +50,13 @@ height: auto;
 .gif{
 /* max-width: 700px; */
 max-width: 1000px;
-width: 50%;
+width: 60%;
 /* width: 500px; */
 margin-left: auto;
 margin-right: auto;
-/* text-align:center; */
+text-align: center;
 /* display: inline-block; */
-float: left;
+float:left;/*画像を左にする*/
 }
 
 /* PC用のCSS */
