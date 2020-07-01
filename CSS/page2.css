@@ -1,33 +1,26 @@
 h1{
-  color: aqua;
-}
-
-p{
   font-size: 20px;
-  /* color: red; */
   border-bottom: solid 6px ;
 }
 
-.dakuso{
-  color:blue;
+#moji{
+  float: right;
+  text-align: right;
+
+}
+
+.box{
+  float: right;
+  text-align: right
+}
+
+p{
+  font-size: 14px;
 }
 
 .gif{
   padding: 20px;
 }
-
-.yugio{
-  display: flex;
-}
-
-/* ゲーム用CSS */
-h2{
-  /*body項目を横向きにする */
-  display: flex;
-  /* 折り返す */
-  flex-wrap: wrap;
-} 
-
 
 
 /* フルスクリーンの書き方 */
@@ -50,7 +43,9 @@ width: 50%;
 /* width: 500px; */
 margin-left: auto;
 margin-right: auto;
-float: inline-start;
+/* text-align:center; */
+/* display: inline-block; */
+float: left;
 }
 
 /* PC用のCSS */
@@ -59,6 +54,11 @@ float: inline-start;
  /* background-color: #00FFFF; 青色*/
   border-bottom-color: #00FFFF; /*青色*/
   }
+
+  h1{
+    border-bottom-color: #00FFFF; /*青色*/
+  }
+
   /* body {
       background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
       background-size:cover;
@@ -70,12 +70,18 @@ float: inline-start;
       #menu-bg {
         border-bottom-color: #FF0000; /*赤色*/
       }
+      h1{
+        border-bottom-color: #FF0000; /*赤色*/
+      }
       }
 
 /* スマホ用のCSS */
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
           #menu-bg {
             border-bottom-color: #00FF00; /*緑色*/
+      }
+      h1{
+        border-bottom-color: #00FF00; /*緑色*/
       }
       /* body {
           background: url(https://github.com/masaya-i/test/blob/master/img/pika.jpg?raw=true) center center no-repeat fixed;
