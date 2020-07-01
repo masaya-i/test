@@ -8,26 +8,27 @@ h1{
   text-align: right;
 }
 */
+
 .box{
-  /* background: #42c97e; */
+  background: #42c97e; 
   height: 400px;
   position: relative;
   text-align: center;
   align-items: center;
   display: flex;
   justify-content: center;
-   
 }
+
 /* .box{
-  float: right;
-  text-align: right
+  float: left;
+  text-align: left;
 } */
 
-p{
+/* p{
   font-size: 14px;
   display: inline-block;
   text-align: center
-}
+} */
 
 /* .gif{
   padding: 20px;
