@@ -1,13 +1,33 @@
+article {
+	display: flex;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px #999;
+}
+	article figure {
+		margin-right: 20px;
+		width: 500px;
+		height: 200px;
+	}
+		article figure img {
+			min-width: 500px;
+			max-width: 100%;
+			vertical-align: top;
+		}
+
 h1{
   font-size: 20px;
   border-bottom: solid 6px ;
 }
 
-/* #moji{
-  float: right;
-  text-align: right;
+.moji{
+  float: left;
+  /* text-align: right; */
+  display: block;
 }
-*/
+
 
 .box{
   background: #42c97e; 
@@ -49,16 +69,17 @@ height: auto;
 /* 自動で画像の大きさをそろえてくれる */
 /* 画面サイズに合わせつつ、最大最小を設定した記述 */
 .gif{
-/* max-width: 700px; */
 max-width: 1000px;
-width: 60%;
-/* width: 500px; */
+width: 100%;
 margin-left: auto;
 margin-right: auto;
-text-align: center;
-/* display: inline-block; */
-float:left;/*画像を左にする*/
+/* text-align: center; */
+/* display: block; */
 }
+/* display: inline-block; */
+/* float:left; */
+/*画像を左にする*/
+
 
 /* PC用のCSS */
 @media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
