@@ -1,4 +1,4 @@
-article {
+/* article {
 	display: flex;
 	margin-bottom: 20px;
 	padding: 20px;
@@ -12,10 +12,11 @@ article {
 		height: 200px;
 	}
 		article figure img {
-			min-width: 500px;
-			max-width: 100%;
+      min-width: 500px;
+      /* max-width: 1000px; */
+      /* width: 100%;
 			vertical-align: top;
-		}
+		}  */
 
 h1{
   font-size: 20px;
