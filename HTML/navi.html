@@ -7,11 +7,121 @@
     <!-- CSSファイル読み込み -->
     <!-- <link rel="stylesheet" href="/CSS/page1.css"> -->
     <link rel="stylesheet" href="https://masaya-i.github.io/test/CSS/navi.css">
+    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
 </head>
 <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+              Documentation
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item">
+                  Jobs
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    
     <a href="https://masaya-i.github.io/test/">TOP</a>
     <a href="https://masaya-i.github.io/test/HTML/page1.html">LINK</a>
     <a href="https://masaya-i.github.io/test/HTML/page2.html">LINK2</a>
     <a href="https://masaya-i.github.io/test/HTML/navi.html">LINK3</a>
+
+
+    <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+            <a id="menu" href="https://masaya-i.github.io/test/">TOP</a>
+            <a id="menu" href="https://masaya-i.github.io/test/HTML/page1.html">LINK</a>
+            <a id="menu" href="https://masaya-i.github.io/test/HTML/page2.html">LINK2</a>
+            <a id="menu" href="https://masaya-i.github.io/test/HTML/navi.html">LINK3</a>
+        </div>
+    </div>
+
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand navbar-brand-center">
+            <a class="navbar-item logo" href="/"><img alt="logo_name" src="logo.svg"></a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">ドロップダウンヘッダー1</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="/ddlink1">ドロップダウンリンク1</a>
+                        <a class="navbar-item" href="/ddlink2">ドロップダウンリンク2</a>
+                        <a class="navbar-item" href="/ddlink3">ドロップダウンリンク3</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="/ddlink4">ドロップダウンリンク4</a>
+                    </div>
+                </div>
+                <a class="navbar-item" href="/link1">リンク1</a>
+                <a class="navbar-item" href="/link2">リンク2</a>
+                <a class="navbar-item" href="/link3">リンク3</a>
+                <a class="navbar-item" href="/link4">リンク4</a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item" href="/link11">リンク11</a>
+                <a class="navbar-item" href="/link12">リンク12</a>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
