@@ -1,22 +1,3 @@
-/* article {
-	display: flex;
-	margin-bottom: 20px;
-	padding: 20px;
-	border-radius: 5px;
-	box-sizing: border-box;
-	box-shadow: 0 0 5px #999;
-}
-	article figure {
-		margin-right: 20px;
-		width: 500px;
-		height: 200px;
-	}
-		article figure img {
-      min-width: 500px;
-      /* max-width: 1000px; */
-      /* width: 100%;
-			vertical-align: top;
-		}  */
 
 h1{
   font-size: 20px;
@@ -27,17 +8,6 @@ h1{
   float: left;
   /* text-align: right; */
   display: block;
-}
-
-
-.box{
-  background: #42c97e; 
-  height: 400px;
-  position: relative;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 /* .box{
