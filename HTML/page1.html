@@ -6,50 +6,74 @@
     <title>My Pages</title>
     <!-- CSSファイル読み込み -->
     <!-- <link rel="stylesheet" href="/CSS/page1.css"> -->
-    <link rel="stylesheet" href="https://masaya-i.github.io/test/CSS/page1.css">
+    <link rel="stylesheet" href="./../CSS/page2.css">
+    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer ></script>
+
+    <!-- モバイルmenuバー用 JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./../js/page2.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
     
 </head>
 <body>
-
-<div id="wrap">
-    <div id="side">
-        <p>サイドバー</p>
-        <a href="https://masaya-i.github.io/test/">TOP</a>
-        <a href="https://masaya-i.github.io/test/HTML/page1.html">LINK</a>
-        <a href="https://masaya-i.github.io/test/HTML/page2.html">LINK2</a>
-        <a href="https://masaya-i.github.io/test/HTML/navi.html">LINK3</a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>     
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-
-<div id="content">
-<p>メインコンテンツ</p>
-<img class="gif" src="https://github.com/masaya-i/test/blob/master/img/HUNTRESS.gif?raw=true" alt="画像を表示出来ません">
-<p>J-POPから洋楽まで何でも聞きますが、一番ブームが長いのが、B'zです！独りよがりな歌詞やメロディーが自分に深く刺さりました。男心の本心の部分を代弁してくれているんですよね。おすすめ曲は『ONE』,『ねがい』,『TIME』です。
-    もちろんB'z以外にも、心情によって色々な曲を聴いておりますので、こんな気分なんだけど、おすすめの曲あるみたいな風に聞いてください。最高の一曲を教えます。ライバルはアレクサです。  
-</div>
-
-<h1>中央書き</h1>
-<img class="gif" src="https://github.com/masaya-i/test/blob/master/img/HUNTRESS.gif?raw=true" alt="画像を表示出来ません">
-<p>J-POPから洋楽まで何でも聞きますが、一番ブームが長いのが、B'zです！独りよがりな歌詞やメロディーが自分に深く刺さりました。男心の本心の部分を代弁してくれているんですよね。おすすめ曲は『ONE』,『ねがい』,『TIME』です。
-    もちろんB'z以外にも、心情によって色々な曲を聴いておりますので、こんな気分なんだけど、おすすめの曲あるみたいな風に聞いてください。最高の一曲を教えます。ライバルはアレクサです。 
-    </p>   
-
-
-</div>
-
-<div id=”footer”>
-<p>フッター</p>
-</div>
-
+    <div class="hero-head">
+        <header class="navbar is-fixed-top">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active" href="https://masaya-i.github.io/test/">
+                  TOP
+                </a>
+                <a class="navbar-item" href="https://masaya-i.github.io/test/HTML/page2.html">
+                  MYSELF
+                </a>
+                <a class="navbar-item">
+                  SKILL
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">FAVORITE</a>
+                  <div class="navbar-dropdown">
+                      <a class="navbar-item" href="https://masaya-i.github.io/test/HTML/navi.html">MUSIC</a>
+                      <a class="navbar-item" href="https://masaya-i.github.io/test/HTML/page2.html">GAME</a>
+                      <hr class="navbar-divider">
+                      <a class="navbar-item" href="https://masaya-i.github.io/test/">HOME</a>
+                  </div>
+                </div>
+                <span class="navbar-item">
+                  <a class="button is-success is-inverted">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    <br>
+    <br>
+    <br>
+      <div class="columns">
+          <!-- <div class="column is-four-five"> -->
+            <div class="column is-four-five" text-align="center";>
+              <div>
+                  <br>
+                  <img class="gif" src="https://github.com/masaya-i/test/blob/master/img/TOP.jpg?raw=true"  alt="サムネイル画像">      
+              </div>
+          </div>
+      </div>
 </body>
 </html>
