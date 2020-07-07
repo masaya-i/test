@@ -13,7 +13,11 @@
      <!-- テスト用 -->
     <link rel="stylesheet" href="./../CSS/page2.css">
     <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer ></script>
+
+    <!-- モバイルmenuバー用 JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./../js/page2.js"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
 
 </head>
@@ -23,86 +27,44 @@
     <a href="https://masaya-i.github.io/test/HTML/page2.html">LINK2</a>
     <a href="https://masaya-i.github.io/test/HTML/navi.html">LINK3</a>
     
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-          </a>
-      
-          <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="https://masaya-i.github.io/test/HTML/page1.html">
-              Home
+    <div class="hero-head">
+      <header class="navbar is-fixed-top">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
             </a>
-      
-            <a class="navbar-item" href="https://masaya-i.github.io/test/HTML/page2.html">
-              Documentation
-            </a>
-      
-            <!-- <div class="navbar-item has-dropdown is-hoverable" v-if ="isNavDropShow" style="display: none;"> -->
-            <div class="navbar-item has-dropdown is-hoverable" v-if ="isNavDropShow">
-  
-              <a class="navbar-link">
-                More
+            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroC" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active">
+                Home
               </a>
-      
-              <div class="navbar-dropdown">
-                <a class="navbar-item" href="https://masaya-i.github.io/test/HTML/navi.html">
-                  About
+              <a class="navbar-item">
+                Examples
+              </a>
+              <a class="navbar-item">
+                Documentation
+              </a>
+              <span class="navbar-item">
+                <a class="button is-success is-inverted">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Download</span>
                 </a>
-                <a class="navbar-item">
-                  Jobs
-                </a>
-                <a class="navbar-item">
-                  Contact
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item">
-                  Report an issue
-                </a>
-              </div>
-            </div>
-          </div>
-      
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a class="button is-light">
-                  Log in
-                </a>
-              </div>
+              </span>
             </div>
           </div>
         </div>
-      </nav>
-
-      <nav class="navbar is-black">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="#">NARITO BLOG</a>
-            <a class="navbar-burger" data-target="my-menu">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-        <div id="my-menu" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="#">TOP</a>
-                <a class="navbar-item" href="#">お問い合わせ</a>
-            </div>
-        </div>
-    </nav>
-
+      </header>
+    </div>
+  
     <h1>ファラン</h1>
     <div class="columns">
         <div class="column is-two-five">
