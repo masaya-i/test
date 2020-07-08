@@ -5,4 +5,8 @@ $(document).ready(function(){
       burger.toggleClass('is-active');
       menu.toggleClass('is-active');
     });
-  });
+});
+  
+$('#navbar-item a[href]').on('click', function(event) {
+  $('.navbar-burger burger').trigger('click');
+});
