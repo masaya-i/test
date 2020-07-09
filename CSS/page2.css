@@ -7,14 +7,14 @@ h1{
   /* margin-left: 20px; */
   }
     
-#top{
+#top,#myself{
     /* ナビバーに隠れてしまうため余白 */
   margin-top: -80px;
   padding-top: 80px;
 }
 
 .moji{
-  font-size: 38px;
+  /* font-size: 38px; */
   text-align: left;
   margin-left: 15px;
   margin-right: 15px;
@@ -23,21 +23,9 @@ h1{
   /* display: block; */
 }
 
-/* .box{
-  float: left;
-  text-align: left;
-} */
-
-/* p{
-  font-size: 14px;
-  display: inline-block;
-  text-align: center
-} */
-
-/* .gif{
-  padding: 20px;
-} */
-
+.write{
+  margin-left: 15px;
+}
 
 /* フルスクリーンの書き方 */
 /* body {
