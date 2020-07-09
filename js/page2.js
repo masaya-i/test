@@ -1,38 +1,63 @@
 $(document).ready(function () {
     var burger = $('.burger');
     var menu = $('#' + burger.data('target')); /*#navbarMenuHeroC */
-    var nav = $('.navbar-item');    
+  var nav = $('.navbar-item');  
+  Number 
     // $(document).on('click', function () {
-    burger.on('click', function() {
+    
+  burger.on('click', function () {
       // burger.toggleClass('is-active');
       // menu.toggleClass('is-active');
       burger.toggleClass('is-active');
-      menu.toggleClass('is-active');
-    });
-  
-    // if ($('.burger').hasClass('is-active'))  {
-    //   $(document).on('click', function () {
-    //     burger.toggleClass('is-active');
-    //     menu.toggleClass('is-active');
-    //     alert('クラス持っている');  
-    //   });
-    // } else {      
-    //   alert('クラス持っていない');  
-    //   }
+    menu.toggleClass('is-active');
+    // e.stopPropagation();
+  });
+  // $('.navbar-item').on('click', function () {
+  //   $('.navbar-item').trigger('click');
+  // });
+  // アイテム選択時にナビバーが開いていたら閉じる
+  // $('.navbar-item').on('click', function () {
+  //     if ($('.burger').hasClass('is-active'))  {
+  //       burger.toggleClass('is-active');
+  //       menu.toggleClass('is-active');
+  //       // alert('クラス持っている');  
+  //   } else {      
+  //     // alert('クラス持っていない');  
+  //     }
+  // });
+
+  // $('.navbar-dropdown').on('click', function () {
+  //   if ($('.burger').hasClass('is-active'))  {
+  //     burger.toggleClass('is-active');
+  //     menu.toggleClass('is-active');
+  //     // alert('クラス持っている');  
+  // } else {      
+  //   // alert('クラス持っていない');  
+  //   }
+  // });
+
+  $('.navbar-menu').on('click', function () {
+    if ($('.burger').hasClass('is-active'))  {
+      burger.removeClass('is-active');
+      menu.removeClass('is-active');
+      // alert('クラス持っている');  
+  } else {      
+    // alert('クラス持っていない');  
+    }
+  });
+
+  $('.main-wrapper').on('click', function () {
+      if ($('.burger').hasClass('is-active'))  {
+        burger.removeClass('is-active');
+        menu.removeClass('is-active');
+        // alert('クラス持っている');  
+    } else {      
+      // alert('クラス持っていない');  
+    }  
+  });
+
 });
 
-let targets = document.getElementsByClassName("navbar-item");
-for(let i = 0; i < targets.length; i++){
-  targets[i].addEventListener("click",() => {
-    alert('クラス持っている');  
-  }, false);
-}
-$('container-item').on('click', function () {
-  // var test = $('.burger');
-    // burger.toggleClass('is-active');
-    // menu.toggleClass('is-active');
-    alert('クラス持っている');  
-});
 
 // $(document).on('click', function () {
 //   // var burger = $('.burger');

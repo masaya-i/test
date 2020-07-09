@@ -2,6 +2,15 @@
 h1{
   font-size: 20px;
   border-bottom: solid 6px ;
+  /* ナビバーに隠れてしまうため余白 */
+  /* margin-top: -150px;
+  padding-top: 150px; */
+  }
+    
+#top{
+    /* ナビバーに隠れてしまうため余白 */
+  margin-top: -80px;
+  padding-top: 80px;
 }
 
 .moji{
