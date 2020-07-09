@@ -6,8 +6,13 @@ h1{
   border-bottom: solid 6px ;
   /* margin-left: 20px; */
   }
+
+  h2{
+    border-bottom: solid 4px ;
+      text-align: center;
+  }
     
-#top,#myself,#skill,#music{
+#top,#myself,#skill,#music,#game{
     /* ナビバーに隠れてしまうため余白 */
   margin-top: -80px;
   padding-top: 80px;
@@ -65,6 +70,9 @@ margin-right: 15px;
   h1{
     border-bottom-color: #00FFFF; /*青色*/
   }
+  h2{
+    border-bottom-color: #00FFFF; /*青色*/
+  }
 
   /* body {
       background: url(https://github.com/masaya-i/test/blob/master/img/faran.gif?raw=true) center center no-repeat fixed;
@@ -80,6 +88,10 @@ margin-right: 15px;
       h1{
         border-bottom-color: #FF0000; /*赤色*/
       }
+      h2{
+        border-bottom-color: #FF0000; /*赤色*/
+      }
+
       }
 
 /* スマホ用のCSS */
@@ -89,6 +101,9 @@ margin-right: 15px;
       }
       h1{
         border-bottom-color: #00FF00; /*緑色*/
+      }
+      h2{
+        border-bottom-color: #00FF00; /*赤色*/
       }
       /* body {
           background: url(https://github.com/masaya-i/test/blob/master/img/pika.jpg?raw=true) center center no-repeat fixed;
