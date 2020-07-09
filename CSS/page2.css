@@ -1,10 +1,10 @@
 
 h1{
-  font-size: 20px;
+  /* font-size: 20px; */
+  /* margin-bottom: 15px; */
+  /* text-align: left; */
   border-bottom: solid 6px ;
-  /* ナビバーに隠れてしまうため余白 */
-  /* margin-top: -150px;
-  padding-top: 150px; */
+  /* margin-left: 20px; */
   }
     
 #top{
@@ -14,9 +14,13 @@ h1{
 }
 
 .moji{
-  float: left;
+  font-size: 38px;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* float: left; */
   /* text-align: right; */
-  display: block;
+  /* display: block; */
 }
 
 /* .box{
@@ -51,9 +55,11 @@ height: auto;
 .gif{
 max-width: 1000px;
 width: 100%;
-margin-left: auto;
-margin-right: auto;
+/* margin-left: auto;
+margin-right: auto; */
 text-align: center;
+margin-left: 15px;
+margin-right: 15px;
 /* display: block; */
 }
 /* display: inline-block; */
