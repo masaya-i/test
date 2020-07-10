@@ -18,6 +18,12 @@ h1{
   padding-top: 80px;
 }
 
+.columns{
+  /* font-size: 38px; */
+  padding: 15px;
+}
+
+
 .moji{
   /* font-size: 38px; */
   text-align: left;
